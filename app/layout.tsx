@@ -3,6 +3,8 @@ import type { Metadata, Viewport } from "next"
 import { Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
+import Script from "next/script"
+
 
 const _inter = Inter({ subsets: ["latin"] })
 
@@ -57,10 +59,27 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-sans antialiased">
-        {children}
-        <Analytics />
-      </body>
-    </html>
+  <head>
+    {/* GA4 */}
+    <Script
+      src="https://www.googletagmanager.com/gtag/js?id=G-Y7CR77YBVL"
+      strategy="afterInteractive"
+    />
+    <Script id="ga4-init" strategy="afterInteractive">
+      {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-Y7CR77YBVL');
+      `}
+    </Script>
+  </head>
+
+  <body className="font-sans antialiased">
+    {children}
+    <Analytics />
+  </body>
+</html>
+
   )
 }
