@@ -1,3 +1,4 @@
+"use client"
 import { Phone, MessageCircle, Shield, Clock, CheckCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
