@@ -14,7 +14,7 @@ export function StickyCTA() {
           Call Now
         </a>
         <a
-          href="https://wa.me/917350900022 ?text=Hi, I need pest control services in Pune"
+          href="https://wa.me/917350900022?text=Hi, I need pest control services in Pune"
           target="_blank"
           rel="noopener noreferrer"
           className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-accent py-3 font-medium text-accent-foreground"
