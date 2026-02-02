@@ -149,6 +149,9 @@ export default function ServicesPage() {
           Call: +91 7350900022
         </a>
       </Button>
+       <p className="mt-2 text-xs text-muted-foreground">
+      📞 iPhone users: Tap “Allow Call” to connect instantly
+    </p>
 
       {/* WHATSAPP */}
       <Button size="lg" variant="outline" asChild>
