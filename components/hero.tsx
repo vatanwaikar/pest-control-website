@@ -1,6 +1,12 @@
 import { Phone, MessageCircle, Shield, Clock, CheckCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
+declare global {
+  interface Window {
+    gtag?: (command: string, eventName: string, eventParams: Record<string, string>) => void
+  }
+}
+
 export function Hero() {
   return (
     <section className="relative bg-primary py-16 md:py-24">
@@ -22,19 +28,46 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Button size="lg" variant="secondary" className="w-full sm:w-auto" asChild>
-              <a href="tel:+917350900022 " className="flex items-center gap-2">
-                <Phone className="h-5 w-5" />
-                Call Now: +91 7350900022 
-              </a>
-            </Button>
-            <Button size="lg" variant="outline" className="w-full border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 sm:w-auto bg-transparent" asChild>
-              <a href="https://wa.me/917350900022 ?text=Hi, I need pest control services in Pune" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                <MessageCircle className="h-5 w-5" />
-                WhatsApp Us
-              </a>
-            </Button>
-          </div>
+  <Button size="lg" variant="secondary" className="w-full sm:w-auto" asChild>
+    <a
+      href="tel:+917350900022"
+      className="flex items-center gap-2"
+      onClick={() => {
+        window.gtag?.("event", "click_to_call", {
+          event_category: "Contact",
+          event_label: "Phone Call",
+        })
+      }}
+    >
+      <Phone className="h-5 w-5" />
+      Call Now: +91 7350900022
+    </a>
+  </Button>
+
+  <Button
+    size="lg"
+    variant="outline"
+    className="w-full border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 sm:w-auto bg-transparent"
+    asChild
+  >
+    <a
+      href="https://wa.me/917350900022?text=Hi%20I%20need%20pest%20control%20services%20in%20Pune"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-2"
+      onClick={() => {
+        window.gtag?.("event", "whatsapp_click", {
+          event_category: "Contact",
+          event_label: "WhatsApp",
+        })
+      }}
+    >
+      <MessageCircle className="h-5 w-5" />
+      WhatsApp Us
+    </a>
+  </Button>
+</div>
+
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-6">
             <div className="flex items-center gap-2 text-primary-foreground/90">
