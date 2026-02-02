@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://pest-control-website-delta.vercel.app",
+    url: "https://global-vision-pest-control-delta.vercel.app",
     siteName: "GlobalVision Pest Control",
     title: "GlobalVision - Professional Pest Control Services in Pune",
     description:
