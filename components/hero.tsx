@@ -29,15 +29,28 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+  {/* CALL */}
   <Button size="lg" variant="secondary" className="w-full sm:w-auto" asChild>
     <a
       href="tel:+917350900022"
       className="flex items-center gap-2"
-      onClick={() => {
-        window.gtag?.("event", "click_to_call", {
-          event_category: "Contact",
-          event_label: "Phone Call",
-        })
+      onClick={(e) => {
+        e.preventDefault()
+
+        const callUrl = "tel:+917350900022"
+        const gtag = (window as any).gtag
+
+        if (gtag) {
+          gtag("event", "click_to_call", {
+            event_category: "Contact",
+            event_label: "Phone Call",
+            event_callback: () => {
+              window.location.href = callUrl
+            },
+          })
+        } else {
+          window.location.href = callUrl
+        }
       }}
     >
       <Phone className="h-5 w-5" />
@@ -45,6 +58,7 @@ export function Hero() {
     </a>
   </Button>
 
+  {/* WHATSAPP */}
   <Button
     size="lg"
     variant="outline"
@@ -56,11 +70,24 @@ export function Hero() {
       target="_blank"
       rel="noopener noreferrer"
       className="flex items-center gap-2"
-      onClick={() => {
-        window.gtag?.("event", "whatsapp_click", {
-          event_category: "Contact",
-          event_label: "WhatsApp",
-        })
+      onClick={(e) => {
+        e.preventDefault()
+
+        const waUrl =
+          "https://wa.me/917350900022?text=Hi%20I%20need%20pest%20control%20services%20in%20Pune"
+        const gtag = (window as any).gtag
+
+        if (gtag) {
+          gtag("event", "whatsapp_click", {
+            event_category: "Contact",
+            event_label: "WhatsApp",
+            event_callback: () => {
+              window.open(waUrl, "_blank")
+            },
+          })
+        } else {
+          window.open(waUrl, "_blank")
+        }
       }}
     >
       <MessageCircle className="h-5 w-5" />
@@ -68,6 +95,7 @@ export function Hero() {
     </a>
   </Button>
 </div>
+
 
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-6">
