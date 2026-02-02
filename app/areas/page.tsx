@@ -184,6 +184,7 @@ export default function AreasPage() {
                         <Phone className="h-4 w-4" /> Call Now
                       </a>
                     </Button>
+                    
                     <Button size="sm" variant="outline" asChild>
                       <a
                         href={`https://wa.me/917350900022 ?text=Hi, I need pest control services in ${area.name}, Pune`}

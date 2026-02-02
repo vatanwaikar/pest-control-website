@@ -271,6 +271,9 @@ export default function AboutPage() {
                 Call: +91 7350900022
               </a>
             </Button>
+             <p className="mt-2 text-xs text-primary-foreground/70">
+        📞 iPhone users: Tap “Allow Call” to connect instantly
+      </p>
             <Button
               size="lg"
               variant="outline"
