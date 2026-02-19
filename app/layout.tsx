@@ -10,11 +10,11 @@ const _inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: {
-    default: "GlobalVision - Professional Pest Control Services in Pune | Cockroach, Termite, Bed Bug Control",
+    default: "Best Pest Control in Pune | Termite, Bed Bug, Cockroach Treatment",
     template: "%s | GlobalVision Pest Control",
   },
   description:
-    "Best pest control services in Pune. Government approved, safe chemicals. Cockroach control, termite treatment, bed bug control, mosquito control. Serving Wakad, Hinjewadi, Baner, Kothrud. Call +91 7350900022",
+    "Affordable and professional pest control services in Pune including termite, bed bug, cockroach and rodent treatment. Same day service available.",
   keywords: [
     "pest control services in Pune",
     "cockroach control Pune",
@@ -33,11 +33,27 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://global-vision-pest-control-delta.vercel.app",
+    url: "https://globalvisionpestcontrol.com",
     siteName: "GlobalVision Pest Control",
-    title: "GlobalVision - Professional Pest Control Services in Pune",
+    title: "Best Pest Control in Pune | Termite, Bed Bug, Cockroach Treatment",
     description:
-      "Best pest control services in Pune. Government approved, safe chemicals. Serving all areas of Pune.",
+      "Affordable and professional pest control services in Pune including termite, bed bug, cockroach and rodent treatment. Same day service available.",
+    images: [
+      {
+        url: "https://globalvisionpestcontrol.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "GlobalVision Pest Control Pune"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Pest Control in Pune | GlobalVision",
+    description: "Affordable and professional pest control services in Pune including termite, bed bug, cockroach and rodent treatment. Same day service available.",
+    images: ["https://globalvisionpestcontrol.com/twitter-image.jpg"],
+    creator: "@globalvisionpest",
+    site: "@globalvisionpest"
   },
   robots: {
     index: true,

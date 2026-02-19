@@ -55,12 +55,30 @@ export function Footer() {
           <div>
             <h3 className="mb-4 text-lg font-semibold">Service Areas</h3>
             <ul className="space-y-2 text-sm text-background/80">
-              <li><Link href="/areas" className="hover:text-primary">Wakad</Link></li>
-              <li><Link href="/areas" className="hover:text-primary">Hinjewadi</Link></li>
-              <li><Link href="/areas" className="hover:text-primary">Baner</Link></li>
-              <li><Link href="/areas" className="hover:text-primary">Kothrud</Link></li>
-              <li><Link href="/areas" className="hover:text-primary">Hadapsar</Link></li>
-              <li><Link href="/areas" className="hover:text-primary">Pimpri-Chinchwad</Link></li>
+              <li><Link href="/pest-control-in-wakad-pune" className="hover:text-primary">Wakad</Link></li>
+              <li><Link href="/pest-control-in-baner-pune" className="hover:text-primary">Baner</Link></li>
+              <li><Link href="/pest-control-in-hinjewadi-pune" className="hover:text-primary">Hinjewadi</Link></li>
+              <li><Link href="/pest-control-in-kothrud-pune" className="hover:text-primary">Kothrud</Link></li>
+              <li><Link href="/pest-control-in-hadapsar-pune" className="hover:text-primary">Hadapsar</Link></li>
+              <li><Link href="/pest-control-in-viman-nagar-pune" className="hover:text-primary">Viman Nagar</Link></li>
+              <li><Link href="/pest-control-in-pimpri-pune" className="hover:text-primary">Pimpri</Link></li>
+              <li><Link href="/pest-control-in-chinchwad-pune" className="hover:text-primary">Chinchwad</Link></li>
+              <li><Link href="/pest-control-in-aundh-pune" className="hover:text-primary">Aundh</Link></li>
+              <li><Link href="/pest-control-in-pimple-saudagar-pune" className="hover:text-primary">Pimple Saudagar</Link></li>
+              <li><Link href="/pest-control-in-kharadi-pune" className="hover:text-primary">Kharadi</Link></li>
+              <li><Link href="/pest-control-in-wagholi-pune" className="hover:text-primary">Wagholi</Link></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="mb-4 text-lg font-semibold">Resources</h3>
+            <ul className="space-y-2 text-sm text-background/80">
+              <li><Link href="/blog" className="hover:text-primary">Pest Control Blog</Link></li>
+              <li><Link href="/blog/pest-control-cost-in-pune" className="hover:text-primary">Pest Control Costs</Link></li>
+              <li><Link href="/blog/termite-treatment-cost-in-pune" className="hover:text-primary">Termite Treatment Cost</Link></li>
+              <li><Link href="/blog/bed-bug-treatment-price-pune" className="hover:text-primary">Bed Bug Treatment Price</Link></li>
+              <li><Link href="/blog/how-to-remove-cockroaches-in-pune" className="hover:text-primary">Cockroach Removal Tips</Link></li>
+              <li><Link href="/blog/monsoon-pest-control-tips-pune" className="hover:text-primary">Monsoon Pest Control</Link></li>
             </ul>
           </div>
 

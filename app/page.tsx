@@ -1,7 +1,9 @@
 import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
 import { TrustBadges } from "@/components/trust-badges"
-import { Services } from "@/components/services"
+import { ServiceOverview } from "@/components/service-overview"
+import { AreaLinks } from "@/components/area-links"
+import { LeadForm } from "@/components/lead-form"
 import { WhyChooseUs } from "@/components/why-choose-us"
 import { WorkProcess } from "@/components/work-process"
 import { Testimonials } from "@/components/testimonials"
@@ -42,7 +44,19 @@ export default function Home() {
       <Header />
       <Hero />
       <TrustBadges />
-      <Services />
+      <ServiceOverview />
+      <AreaLinks />
+      <div className="py-16 bg-secondary">
+        <div className="mx-auto max-w-4xl px-4">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl font-bold text-foreground mb-4">Request Free Pest Control Quote</h2>
+            <p className="text-lg text-muted-foreground">
+              Get a free, no-obligation quote for your pest control needs in Pune
+            </p>
+          </div>
+          <LeadForm />
+        </div>
+      </div>
       <WhyChooseUs />
       <WorkProcess />
       <Testimonials />

@@ -49,6 +49,7 @@ export function LocalBusinessSchema() {
       "Viman Nagar",
       "Kalyani Nagar",
       "Koregaon Park",
+      "Pimple Saudagar",
       "Pune",
     ],
     sameAs: ["https://www.facebook.com/globalvisionpestcontrol", "https://www.instagram.com/globalvisionpestcontrol"],
@@ -57,6 +58,37 @@ export function LocalBusinessSchema() {
       ratingValue: "4.9",
       reviewCount: "523",
     },
+    serviceType: "Pest Control Service",
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Pest Control Services",
+      itemListElement: [
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Termite Control",
+            description: "Complete termite treatment and prevention services"
+          }
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Bed Bug Control",
+            description: "Professional bed bug treatment and elimination"
+          }
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Cockroach Control",
+            description: "Effective cockroach control and prevention"
+          }
+        }
+      ]
+    }
   }
 
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
@@ -66,10 +98,14 @@ export function ServiceSchema({
   name,
   description,
   url,
+  area,
+  price,
 }: {
   name: string
   description: string
   url: string
+  area?: string
+  price?: string
 }) {
   const schema = {
     "@context": "https://schema.org",
@@ -90,7 +126,14 @@ export function ServiceSchema({
     },
     areaServed: {
       "@type": "City",
-      name: "Pune",
+      name: area || "Pune",
+    },
+    serviceType: "Pest Control Service",
+    offers: {
+      "@type": "Offer",
+      price: price || "Contact for quote",
+      priceCurrency: "INR",
+      availability: "https://schema.org/InStock",
     },
   }
 
@@ -109,6 +152,76 @@ export function FAQSchema({ faqs }: { faqs: { question: string; answer: string }
         text: faq.answer,
       },
     })),
+  }
+
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+}
+
+export function AreaServedSchema() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Place",
+    name: "Pune, Maharashtra",
+    description: "Pest control services across Pune and PCMC areas",
+    geo: {
+      "@type": "GeoCircle",
+      geoMidpoint: {
+        "@type": "GeoCoordinates",
+        latitude: "18.5204",
+        longitude: "73.8567",
+      },
+      geoRadius: "50"
+    },
+    containsPlace: [
+      {
+        "@type": "Place",
+        name: "Wakad"
+      },
+      {
+        "@type": "Place",
+        name: "Baner"
+      },
+      {
+        "@type": "Place",
+        name: "Hinjewadi"
+      },
+      {
+        "@type": "Place",
+        name: "Kothrud"
+      },
+      {
+        "@type": "Place",
+        name: "Hadapsar"
+      },
+      {
+        "@type": "Place",
+        name: "Viman Nagar"
+      },
+      {
+        "@type": "Place",
+        name: "Pimpri"
+      },
+      {
+        "@type": "Place",
+        name: "Chinchwad"
+      },
+      {
+        "@type": "Place",
+        name: "Aundh"
+      },
+      {
+        "@type": "Place",
+        name: "Pimple Saudagar"
+      },
+      {
+        "@type": "Place",
+        name: "Kharadi"
+      },
+      {
+        "@type": "Place",
+        name: "Wagholi"
+      }
+    ]
   }
 
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
