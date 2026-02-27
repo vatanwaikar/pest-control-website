@@ -21,7 +21,7 @@ const services = [
       "Complete cockroach elimination using advanced gel treatment and spray methods. Safe for kitchens, restaurants, and food processing areas. Includes treatment for German, American, and Oriental cockroaches.",
     features: ["Gel Bait Treatment", "Spray Treatment", "Kitchen Safe", "6 Month Warranty"],
     href: "/services/cockroach-control",
-    price: "Starting Rs. 999",
+    price: "Starting ₹999",
   },
   {
     icon: Home,
@@ -30,7 +30,7 @@ const services = [
       "Professional anti-termite treatment for pre and post construction. Protect your property from termite damage with our drilling and chemical barrier method. Complete protection for wooden furniture and structures.",
     features: ["Pre-Construction", "Post-Construction", "Drilling Method", "5 Year Warranty"],
     href: "/services/termite-control",
-    price: "Starting Rs. 2,999",
+    price: "Starting ₹1,499",
   },
   {
     icon: BedDouble,
@@ -39,7 +39,7 @@ const services = [
       "Effective bed bug treatment for homes, hotels, and hostels. Our heat and chemical treatment eliminates bed bugs at all life stages. Sleep peacefully without bed bug bites.",
     features: ["Heat Treatment", "Chemical Spray", "Mattress Safe", "3 Month Warranty"],
     href: "/services/bed-bug-control",
-    price: "Starting Rs. 1,499",
+    price: "Starting ₹1,299",
   },
   {
     icon: Zap,
@@ -48,7 +48,7 @@ const services = [
       "Comprehensive mosquito control with fogging and larviciding. Protect your family from dengue, malaria, and chikungunya. Ideal for homes, societies, and commercial spaces.",
     features: ["Fogging Treatment", "Larviciding", "Society Coverage", "Monthly Plans"],
     href: "/services/mosquito-control",
-    price: "Starting Rs. 799",
+    price: "Starting ₹799",
   },
   {
     icon: MousePointer2,
@@ -57,7 +57,7 @@ const services = [
       "Professional rat and mice control using safe baiting systems and traps. Keep your warehouse, office, or home rodent-free. Includes sealing entry points and ongoing monitoring.",
     features: ["Bait Stations", "Glue Traps", "Entry Point Sealing", "Regular Monitoring"],
     href: "/services/rodent-control",
-    price: "Starting Rs. 1,299",
+    price: "Starting ₹1,199",
   },
 ]
 
