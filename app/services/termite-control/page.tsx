@@ -54,18 +54,23 @@ export default function TermiteControlPage() {
       ]}
       pricing={[
         {
-          name: "1-2 BHK",
-          price: "Rs. 5,999",
+          name: "1 BHK",
+          price: "Rs. 799",
+          features: ["Post-construction treatment", "Drilling method", "5 year warranty", "Annual inspection"],
+        },
+        {
+          name: "2 BHK",
+          price: "Rs. 999",
           features: ["Post-construction treatment", "Drilling method", "5 year warranty", "Annual inspection"],
         },
         {
           name: "3 BHK",
-          price: "Rs. 8,999",
+          price: "Rs. 1,200",
           features: ["Post-construction treatment", "Drilling method", "5 year warranty", "Annual inspection"],
         },
         {
           name: "Bungalow/Villa",
-          price: "Rs. 14,999+",
+          price: "as per assessment",
           features: ["Complete treatment", "Drilling method", "5 year warranty", "Bi-annual inspection"],
         },
       ]}

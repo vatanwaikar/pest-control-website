@@ -53,18 +53,18 @@ export default function BedBugControlPage() {
       ]}
       pricing={[
         {
-          name: "Single Room",
-          price: "Rs. 1,499",
+          name: "1 BHK",
+          price: "Rs. 800",
           features: ["Complete treatment", "Spray method", "3 month warranty", "2 follow-up visits"],
         },
         {
-          name: "2-3 Rooms",
-          price: "Rs. 2,499",
+          name: "2 BHK",
+          price: "Rs. 999",
           features: ["Complete treatment", "Spray method", "3 month warranty", "2 follow-up visits"],
         },
         {
-          name: "Full House",
-          price: "Rs. 3,999",
+          name: "3 BHK",
+          price: "Rs. 1,200",
           features: ["Complete treatment", "All rooms covered", "3 month warranty", "3 follow-up visits"],
         },
       ]}

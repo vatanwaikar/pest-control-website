@@ -54,17 +54,17 @@ export default function CockroachControlPage() {
       pricing={[
         {
           name: "1 BHK",
-          price: "Rs. 999",
+          price: "Rs. 799",
           features: ["Complete treatment", "Gel + Spray", "6 month warranty", "1 follow-up visit"],
         },
         {
           name: "2 BHK",
-          price: "Rs. 1,499",
+          price: "Rs. 999",
           features: ["Complete treatment", "Gel + Spray", "6 month warranty", "2 follow-up visits"],
         },
         {
-          name: "3 BHK+",
-          price: "Rs. 1,999",
+          name: "3 BHK",
+          price: "Rs. 1,200",
           features: ["Complete treatment", "Gel + Spray", "6 month warranty", "3 follow-up visits"],
         },
       ]}

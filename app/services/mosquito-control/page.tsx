@@ -53,19 +53,19 @@ export default function MosquitoControlPage() {
       ]}
       pricing={[
         {
-          name: "Individual Home",
+          name: "1 BHK",
           price: "Rs. 799",
           features: ["Indoor + outdoor fogging", "Larviciding", "Single visit", "Prevention tips"],
         },
         {
-          name: "Society (Small)",
-          price: "Rs. 4,999",
+          name: "2 BHK",
+          price: "Rs. 999",
           features: ["Up to 20 flats", "Common area fogging", "Larviciding", "Monthly plan available"],
         },
         {
-          name: "Society (Large)",
-          price: "Rs. 9,999",
-          features: ["50+ flats", "Complete coverage", "Larviciding", "Bi-weekly service"],
+          name: "3 BHK",
+          price: "Rs. 1,200",
+          features: ["Complete coverage", "Larviciding", "Monthly plan available"],
         },
       ]}
       faqs={[

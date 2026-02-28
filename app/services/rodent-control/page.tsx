@@ -53,18 +53,18 @@ export default function RodentControlPage() {
       ]}
       pricing={[
         {
-          name: "Residential",
-          price: "Rs. 1,299",
+          name: "1 BHK",
+          price: "Rs. 799",
           features: ["Bait stations (3-4)", "Glue boards", "Entry point sealing", "2 follow-up visits"],
         },
         {
-          name: "Commercial",
-          price: "Rs. 2,999",
+          name: "2 BHK",
+          price: "Rs. 999",
           features: ["Bait stations (6-8)", "Glue boards", "Entry point sealing", "Monthly monitoring"],
         },
         {
-          name: "Warehouse/Factory",
-          price: "Rs. 5,999+",
+          name: "3 BHK",
+          price: "Rs. 1,200",
           features: ["Custom solution", "Multiple stations", "Complete proofing", "Weekly monitoring"],
         },
       ]}
