@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/accordion"
 import { Phone, MessageCircle, MapPin, CheckCircle, Shield, Clock, Award } from "lucide-react"
 import { LocalBusinessSchema, FAQSchema, BreadcrumbSchema } from "@/components/json-ld"
+import { LocationServiceLinks } from "@/components/location-service-links"
 
 export const metadata = {
   title: "Best Pest Control in Chinchwad Pune | Termite, Bed Bug, Cockroach Treatment",
@@ -275,6 +276,9 @@ export default function ChinchwadPestControl() {
           </div>
         </div>
       </section>
+
+      {/* Service Links */}
+      <LocationServiceLinks area="Chinchwad" areaUrl="/pest-control-in-chinchwad-pune" />
 
       {/* FAQ Section */}
       <section className="py-16">

@@ -13,6 +13,8 @@ const areas = [
   { name: "Chinchwad", url: "/pest-control-in-chinchwad-pune", description: "Key industrial and residential area" },
   { name: "Aundh", url: "/pest-control-in-aundh-pune", description: "Well-planned upscale residential area" },
   { name: "Pimple Saudagar", url: "/pest-control-in-pimple-saudagar-pune", description: "Fast-growing modern residential hub" },
+  { name: "Kharadi", url: "/pest-control-in-kharadi-pune", description: "Premium residential and commercial area" },
+  { name: "Wagholi", url: "/pest-control-in-wagholi-pune", description: "Growing suburban residential hub" },
 ]
 
 export function AreaLinks() {

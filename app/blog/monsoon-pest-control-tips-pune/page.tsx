@@ -12,6 +12,7 @@ import {
 import { Phone, MessageCircle, CheckCircle, AlertTriangle, CloudRain, Shield } from "lucide-react"
 import { LocalBusinessSchema, FAQSchema, BreadcrumbSchema } from "@/components/json-ld"
 import Link from "next/link"
+import { BlogRelatedLinks } from "@/components/blog-related-links"
 
 export const metadata = {
   title: "Monsoon Pest Control Tips Pune: Protect Your Home This Rainy Season",
@@ -488,6 +489,22 @@ export default function MonsoonPestControlPune() {
           </div>
         </div>
       </section>
+
+      {/* Related Links */}
+      <BlogRelatedLinks 
+        services={[
+          { title: "Mosquito Control Treatment", href: "/services/mosquito-control" },
+          { title: "Cockroach Control Services", href: "/services/cockroach-control" },
+          { title: "Termite Control Treatment", href: "/services/termite-control" },
+          { title: "Pest Prevention Services", href: "/" },
+        ]}
+        locations={[
+          { name: "Monsoon Pest Control in Aundh", href: "/pest-control-in-aundh-pune" },
+          { name: "Monsoon Pest Control in Pimple Saudagar", href: "/pest-control-in-pimple-saudagar-pune" },
+          { name: "Monsoon Pest Control in Kharadi", href: "/pest-control-in-kharadi-pune" },
+          { name: "Monsoon Pest Control in Wagholi", href: "/pest-control-in-wagholi-pune" },
+        ]}
+      />
 
       {/* FAQ Section */}
       <section className="py-16">
