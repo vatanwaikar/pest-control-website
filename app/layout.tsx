@@ -9,6 +9,7 @@ import Script from "next/script"
 const _inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://globalvisionpestcontrol.in"),
   title: {
     default: "Best Pest Control in Pune | Termite, Bed Bug, Cockroach Treatment",
     template: "%s | GlobalVision Pest Control",
