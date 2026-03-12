@@ -87,7 +87,7 @@ export default function CockroachControlPage() {
         {
           question: "Do I need to empty kitchen cabinets before treatment?",
           answer:
-            "No, you don't need to empty cabinets for gel treatment. For spray treatment, we recommend removing food items from open shelves.",
+            "No you don't need to empty cabinets for gel treatment. For spray treatment, we recommend removing food items from open shelves.",
         },
         {
           question: "How often should I get cockroach treatment done?",
