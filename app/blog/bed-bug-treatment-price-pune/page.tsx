@@ -12,6 +12,7 @@ import {
 import { Phone, MessageCircle, CheckCircle, AlertTriangle, Thermometer, BedDouble } from "lucide-react"
 import { LocalBusinessSchema, FAQSchema, BreadcrumbSchema } from "@/components/json-ld"
 import Link from "next/link"
+import { BlogRelatedLinks } from "@/components/blog-related-links"
 
 export const metadata = {
   title: "Bed Bug Treatment Price in Pune: Complete 2024 Cost Guide",
@@ -354,6 +355,22 @@ export default function BedBugTreatmentPricePune() {
           </div>
         </div>
       </section>
+
+      {/* Related Links */}
+      <BlogRelatedLinks 
+        services={[
+          { title: "Bed Bug Control Treatment", href: "/services/bed-bug-control" },
+          { title: "Heat Treatment for Bed Bugs", href: "/services/bed-bug-control" },
+          { title: "Cockroach Control Services", href: "/services/cockroach-control" },
+          { title: "Termite Control Services", href: "/services/termite-control" },
+        ]}
+        locations={[
+          { name: "Bed Bug Control in Viman Nagar", href: "/pest-control-in-viman-nagar-pune" },
+          { name: "Bed Bug Control in Kothrud", href: "/pest-control-in-kothrud-pune" },
+          { name: "Bed Bug Control in Baner", href: "/pest-control-in-baner-pune" },
+          { name: "Bed Bug Control in Hadapsar", href: "/pest-control-in-hadapsar-pune" },
+        ]}
+      />
 
       {/* FAQ Section */}
       <section className="py-16">

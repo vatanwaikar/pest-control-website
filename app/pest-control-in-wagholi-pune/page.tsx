@@ -12,6 +12,7 @@ import {
 import { Phone, MessageCircle, CheckCircle, MapPin, Clock, Shield } from "lucide-react"
 import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/json-ld"
 import Link from "next/link"
+import { LocationServiceLinks } from "@/components/location-service-links"
 
 export const metadata = {
   title: "Pest Control in Wagholi Pune | Same Day Service Available",
@@ -314,6 +315,9 @@ export default function PestControlWagholi() {
           </Card>
         </div>
       </section>
+
+      {/* Service Links */}
+      <LocationServiceLinks area="Wagholi" areaUrl="/pest-control-in-wagholi-pune" />
 
       {/* FAQ Section */}
       <section className="py-16">

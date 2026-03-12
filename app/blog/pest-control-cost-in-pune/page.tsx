@@ -12,6 +12,7 @@ import {
 import { Phone, MessageCircle, CheckCircle, TrendingUp, Shield, Clock } from "lucide-react"
 import { LocalBusinessSchema, FAQSchema, BreadcrumbSchema } from "@/components/json-ld"
 import Link from "next/link"
+import { BlogRelatedLinks } from "@/components/blog-related-links"
 
 export const metadata = {
   title: "Pest Control Cost in Pune: Complete Price Guide 2024",
@@ -317,6 +318,22 @@ export default function PestControlCostPune() {
           </div>
         </div>
       </section>
+
+      {/* Related Links */}
+      <BlogRelatedLinks 
+        services={[
+          { title: "Termite Control Treatment", href: "/services/termite-control" },
+          { title: "Cockroach Control Services", href: "/services/cockroach-control" },
+          { title: "Bed Bug Control Treatment", href: "/services/bed-bug-control" },
+          { title: "Rodent Control Services", href: "/services/rodent-control" },
+        ]}
+        locations={[
+          { name: "Pest Control in Wakad", href: "/pest-control-in-wakad-pune" },
+          { name: "Pest Control in Baner", href: "/pest-control-in-baner-pune" },
+          { name: "Pest Control in Hinjewadi", href: "/pest-control-in-hinjewadi-pune" },
+          { name: "Pest Control in Kothrud", href: "/pest-control-in-kothrud-pune" },
+        ]}
+      />
 
       {/* FAQ Section */}
       <section className="py-16">

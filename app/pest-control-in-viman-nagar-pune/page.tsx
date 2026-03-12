@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/accordion"
 import { Phone, MessageCircle, MapPin, CheckCircle, Shield, Clock, Award } from "lucide-react"
 import { LocalBusinessSchema, FAQSchema, BreadcrumbSchema } from "@/components/json-ld"
+import { LocationServiceLinks } from "@/components/location-service-links"
 
 export const metadata = {
   title: "Best Pest Control in Viman Nagar Pune | Termite, Bed Bug, Cockroach Treatment",
@@ -274,6 +275,9 @@ export default function VimanNagarPestControl() {
           </div>
         </div>
       </section>
+
+      {/* Service Links */}
+      <LocationServiceLinks area="Viman Nagar" areaUrl="/pest-control-in-viman-nagar-pune" />
 
       {/* FAQ Section */}
       <section className="py-16">

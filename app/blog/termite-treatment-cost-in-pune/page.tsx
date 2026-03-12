@@ -12,6 +12,7 @@ import {
 import { Phone, MessageCircle, CheckCircle, AlertTriangle, Shield, Home } from "lucide-react"
 import { LocalBusinessSchema, FAQSchema, BreadcrumbSchema } from "@/components/json-ld"
 import Link from "next/link"
+import { BlogRelatedLinks } from "@/components/blog-related-links"
 
 export const metadata = {
   title: "Termite Treatment Cost in Pune: Complete 2024 Price Guide",
@@ -341,6 +342,22 @@ export default function TermiteTreatmentCostPune() {
           </div>
         </div>
       </section>
+
+      {/* Related Links */}
+      <BlogRelatedLinks 
+        services={[
+          { title: "Termite Control Treatment", href: "/services/termite-control" },
+          { title: "Pre-Construction Termite Treatment", href: "/services/termite-control" },
+          { title: "Cockroach Control Services", href: "/services/cockroach-control" },
+          { title: "General Pest Control", href: "/" },
+        ]}
+        locations={[
+          { name: "Termite Control in Wakad", href: "/pest-control-in-wakad-pune" },
+          { name: "Termite Control in Baner", href: "/pest-control-in-baner-pune" },
+          { name: "Termite Control in Kothrud", href: "/pest-control-in-kothrud-pune" },
+          { name: "Termite Control in Hadapsar", href: "/pest-control-in-hadapsar-pune" },
+        ]}
+      />
 
       {/* FAQ Section */}
       <section className="py-16">

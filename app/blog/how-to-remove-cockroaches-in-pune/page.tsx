@@ -12,6 +12,7 @@ import {
 import { Phone, MessageCircle, CheckCircle, AlertTriangle, Home, Droplets } from "lucide-react"
 import { LocalBusinessSchema, FAQSchema, BreadcrumbSchema } from "@/components/json-ld"
 import Link from "next/link"
+import { BlogRelatedLinks } from "@/components/blog-related-links"
 
 export const metadata = {
   title: "How to Remove Cockroaches in Pune: Effective Methods & Tips",
@@ -445,6 +446,22 @@ export default function CockroachRemovalPune() {
           </div>
         </div>
       </section>
+
+      {/* Related Links */}
+      <BlogRelatedLinks 
+        services={[
+          { title: "Cockroach Control Treatment", href: "/services/cockroach-control" },
+          { title: "Bed Bug Control Services", href: "/services/bed-bug-control" },
+          { title: "Termite Control Treatment", href: "/services/termite-control" },
+          { title: "General Pest Control", href: "/" },
+        ]}
+        locations={[
+          { name: "Cockroach Control in Pimpri", href: "/pest-control-in-pimpri-pune" },
+          { name: "Cockroach Control in Chinchwad", href: "/pest-control-in-chinchwad-pune" },
+          { name: "Cockroach Control in Hinjewadi", href: "/pest-control-in-hinjewadi-pune" },
+          { name: "Cockroach Control in Wakad", href: "/pest-control-in-wakad-pune" },
+        ]}
+      />
 
       {/* FAQ Section */}
       <section className="py-16">
