@@ -9,7 +9,7 @@ export function LocalBusinessSchema() {
       "Professional pest control services in Pune. Government approved, ISO certified. Cockroach control, termite treatment, bed bug control, mosquito control, rodent control.",
     url: "https://globalvisionpestcontrol.in",
     telephone: "+917350900022",
-    email: "info@globalvisionpestcontrol.com",
+    email: "globalvision028@gmail.com",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Shop No. 12, Green Plaza, Near Wakad Bridge",
