@@ -46,9 +46,9 @@ const faqs = [
 ]
 
 const breadcrumbItems = [
-  { name: "Home", url: "https://globalvisionpestcontrol.com" },
-  { name: "Blog", url: "https://globalvisionpestcontrol.com/blog" },
-  { name: "Monsoon Pest Control Tips Pune", url: "https://globalvisionpestcontrol.com/blog/monsoon-pest-control-tips-pune" },
+  { name: "Home", url: "https://globalvisionpestcontrol.in" },
+  { name: "Blog", url: "https://globalvisionpestcontrol.in/blog" },
+  { name: "Monsoon Pest Control Tips Pune", url: "https://globalvisionpestcontrol.in/blog/monsoon-pest-control-tips-pune" },
 ]
 
 export default function MonsoonPestControlPune() {

@@ -27,7 +27,7 @@ export const metadata = {
   openGraph: {
     title: "Best Pest Control in Hadapsar Pune | GlobalVision",
     description: "Professional pest control services in Hadapsar, Pune. Same-day service available for termites, bed bugs, cockroaches.",
-    url: "https://globalvisionpestcontrol.com/pest-control-in-hadapsar-pune",
+    url: "https://globalvisionpestcontrol.in/pest-control-in-hadapsar-pune",
   },
 }
 
@@ -51,8 +51,8 @@ const hadapsarFaqs = [
 ]
 
 const breadcrumbItems = [
-  { name: "Home", url: "https://globalvisionpestcontrol.com" },
-  { name: "Pest Control in Hadapsar Pune", url: "https://globalvisionpestcontrol.com/pest-control-in-hadapsar-pune" },
+  { name: "Home", url: "https://globalvisionpestcontrol.in" },
+  { name: "Pest Control in Hadapsar Pune", url: "https://globalvisionpestcontrol.in/pest-control-in-hadapsar-pune" },
 ]
 
 export default function HadapsarPestControl() {

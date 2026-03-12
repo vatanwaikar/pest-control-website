@@ -58,7 +58,7 @@ export default function GA4SetupPage() {
                     After creating property, select <strong>Web</strong> as platform
                   </li>
                   <li>
-                    Enter your website URL: <code className="rounded bg-muted px-2 py-1">https://globalvisionpestcontrol.com</code>
+                    Enter your website URL: <code className="rounded bg-muted px-2 py-1">https://globalvisionpestcontrol.in</code>
                   </li>
                   <li>
                     Enter stream name: <code className="rounded bg-muted px-2 py-1">GlobalVision Web Stream</code>

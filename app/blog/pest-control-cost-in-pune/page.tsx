@@ -47,9 +47,9 @@ const faqs = [
 ]
 
 const breadcrumbItems = [
-  { name: "Home", url: "https://globalvisionpestcontrol.com" },
-  { name: "Blog", url: "https://globalvisionpestcontrol.com/blog" },
-  { name: "Pest Control Cost in Pune", url: "https://globalvisionpestcontrol.com/blog/pest-control-cost-in-pune" },
+  { name: "Home", url: "https://globalvisionpestcontrol.in" },
+  { name: "Blog", url: "https://globalvisionpestcontrol.in/blog" },
+  { name: "Pest Control Cost in Pune", url: "https://globalvisionpestcontrol.in/blog/pest-control-cost-in-pune" },
 ]
 
 export default function PestControlCostPune() {

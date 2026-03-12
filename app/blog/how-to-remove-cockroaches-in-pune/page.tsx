@@ -46,9 +46,9 @@ const faqs = [
 ]
 
 const breadcrumbItems = [
-  { name: "Home", url: "https://globalvisionpestcontrol.com" },
-  { name: "Blog", url: "https://globalvisionpestcontrol.com/blog" },
-  { name: "How to Remove Cockroaches in Pune", url: "https://globalvisionpestcontrol.com/blog/how-to-remove-cockroaches-in-pune" },
+  { name: "Home", url: "https://globalvisionpestcontrol.in" },
+  { name: "Blog", url: "https://globalvisionpestcontrol.in/blog" },
+  { name: "How to Remove Cockroaches in Pune", url: "https://globalvisionpestcontrol.in/blog/how-to-remove-cockroaches-in-pune" },
 ]
 
 export default function CockroachRemovalPune() {

@@ -27,7 +27,7 @@ export const metadata = {
   openGraph: {
     title: "Best Pest Control in Pimple Saudagar Pune | GlobalVision",
     description: "Professional pest control services in Pimple Saudagar, Pune. Same-day service available for termites, bed bugs, cockroaches.",
-    url: "https://globalvisionpestcontrol.com/pest-control-in-pimple-saudagar-pune",
+    url: "https://globalvisionpestcontrol.in/pest-control-in-pimple-saudagar-pune",
   },
 }
 
@@ -51,8 +51,8 @@ const pimpleSaudagarFaqs = [
 ]
 
 const breadcrumbItems = [
-  { name: "Home", url: "https://globalvisionpestcontrol.com" },
-  { name: "Pest Control in Pimple Saudagar Pune", url: "https://globalvisionpestcontrol.com/pest-control-in-pimple-saudagar-pune" },
+  { name: "Home", url: "https://globalvisionpestcontrol.in" },
+  { name: "Pest Control in Pimple Saudagar Pune", url: "https://globalvisionpestcontrol.in/pest-control-in-pimple-saudagar-pune" },
 ]
 
 export default function PimpleSaudagarPestControl() {

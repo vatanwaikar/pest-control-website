@@ -27,7 +27,7 @@ export const metadata = {
   openGraph: {
     title: "Best Pest Control in Hinjewadi Pune | GlobalVision",
     description: "Professional pest control services in Hinjewadi, Pune. Same-day service available for termites, bed bugs, cockroaches.",
-    url: "https://globalvisionpestcontrol.com/pest-control-in-hinjewadi-pune",
+    url: "https://globalvisionpestcontrol.in/pest-control-in-hinjewadi-pune",
   },
 }
 
@@ -51,8 +51,8 @@ const hinjewadiFaqs = [
 ]
 
 const breadcrumbItems = [
-  { name: "Home", url: "https://globalvisionpestcontrol.com" },
-  { name: "Pest Control in Hinjewadi Pune", url: "https://globalvisionpestcontrol.com/pest-control-in-hinjewadi-pune" },
+  { name: "Home", url: "https://globalvisionpestcontrol.in" },
+  { name: "Pest Control in Hinjewadi Pune", url: "https://globalvisionpestcontrol.in/pest-control-in-hinjewadi-pune" },
 ]
 
 export default function HinjewadiPestControl() {

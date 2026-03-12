@@ -27,7 +27,7 @@ export const metadata = {
   openGraph: {
     title: "Best Pest Control in Viman Nagar Pune | GlobalVision",
     description: "Professional pest control services in Viman Nagar, Pune. Same-day service available for termites, bed bugs, cockroaches.",
-    url: "https://globalvisionpestcontrol.com/pest-control-in-viman-nagar-pune",
+    url: "https://globalvisionpestcontrol.in/pest-control-in-viman-nagar-pune",
   },
 }
 
@@ -51,8 +51,8 @@ const vimanNagarFaqs = [
 ]
 
 const breadcrumbItems = [
-  { name: "Home", url: "https://globalvisionpestcontrol.com" },
-  { name: "Pest Control in Viman Nagar Pune", url: "https://globalvisionpestcontrol.com/pest-control-in-viman-nagar-pune" },
+  { name: "Home", url: "https://globalvisionpestcontrol.in" },
+  { name: "Pest Control in Viman Nagar Pune", url: "https://globalvisionpestcontrol.in/pest-control-in-viman-nagar-pune" },
 ]
 
 export default function VimanNagarPestControl() {

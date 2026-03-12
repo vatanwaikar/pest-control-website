@@ -33,14 +33,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://globalvisionpestcontrol.com",
+    url: "https://globalvisionpestcontrol.in",
     siteName: "GlobalVision Pest Control",
     title: "Best Pest Control in Pune | Termite, Bed Bug, Cockroach Treatment",
     description:
       "Affordable and professional pest control services in Pune including termite, bed bug, cockroach and rodent treatment. Same day service available.",
     images: [
       {
-        url: "https://globalvisionpestcontrol.com/og-image.jpg",
+        url: "https://globalvisionpestcontrol.in/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "GlobalVision Pest Control Pune"
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pest Control in Pune | GlobalVision",
     description: "Affordable and professional pest control services in Pune including termite, bed bug, cockroach and rodent treatment. Same day service available.",
-    images: ["https://globalvisionpestcontrol.com/twitter-image.jpg"],
+    images: ["https://globalvisionpestcontrol.in/twitter-image.jpg"],
     creator: "@globalvisionpest",
     site: "@globalvisionpest"
   },

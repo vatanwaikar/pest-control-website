@@ -2,12 +2,12 @@ export function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://globalvisionpestcontrol.com",
+    "@id": "https://globalvisionpestcontrol.in",
     name: "GlobalVision Pest Control",
-    image: "https://globalvisionpestcontrol.com/logo.png",
+    image: "https://globalvisionpestcontrol.in/logo.png",
     description:
       "Professional pest control services in Pune. Government approved, ISO certified. Cockroach control, termite treatment, bed bug control, mosquito control, rodent control.",
-    url: "https://globalvisionpestcontrol.com",
+    url: "https://globalvisionpestcontrol.in",
     telephone: "+917350900022",
     email: "info@globalvisionpestcontrol.com",
     address: {

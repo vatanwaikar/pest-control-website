@@ -48,8 +48,8 @@ const faqs = [
 ]
 
 const breadcrumbItems = [
-  { name: "Home", url: "https://globalvisionpestcontrol.com" },
-  { name: "Pest Control in Kharadi Pune", url: "https://globalvisionpestcontrol.com/pest-control-in-kharadi-pune" },
+  { name: "Home", url: "https://globalvisionpestcontrol.in" },
+  { name: "Pest Control in Kharadi Pune", url: "https://globalvisionpestcontrol.in/pest-control-in-kharadi-pune" },
 ]
 
 export default function PestControlKharadi() {
@@ -59,7 +59,7 @@ export default function PestControlKharadi() {
       <ServiceSchema 
         name="Pest Control Services in Kharadi"
         description="Professional pest control services in Kharadi, Pune including termite, bed bug, cockroach, mosquito, and rodent control with guaranteed results."
-        url="https://globalvisionpestcontrol.com/pest-control-in-kharadi-pune"
+        url="https://globalvisionpestcontrol.in/pest-control-in-kharadi-pune"
         area="Kharadi"
       />
       <FAQSchema faqs={faqs} />

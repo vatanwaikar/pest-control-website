@@ -27,7 +27,7 @@ export const metadata = {
   openGraph: {
     title: "Best Pest Control in Aundh Pune | GlobalVision",
     description: "Professional pest control services in Aundh, Pune. Same-day service available for termites, bed bugs, cockroaches.",
-    url: "https://globalvisionpestcontrol.com/pest-control-in-aundh-pune",
+    url: "https://globalvisionpestcontrol.in/pest-control-in-aundh-pune",
   },
 }
 
@@ -51,8 +51,8 @@ const aundhFaqs = [
 ]
 
 const breadcrumbItems = [
-  { name: "Home", url: "https://globalvisionpestcontrol.com" },
-  { name: "Pest Control in Aundh Pune", url: "https://globalvisionpestcontrol.com/pest-control-in-aundh-pune" },
+  { name: "Home", url: "https://globalvisionpestcontrol.in" },
+  { name: "Pest Control in Aundh Pune", url: "https://globalvisionpestcontrol.in/pest-control-in-aundh-pune" },
 ]
 
 export default function AundhPestControl() {

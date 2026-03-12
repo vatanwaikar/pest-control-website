@@ -46,9 +46,9 @@ const faqs = [
 ]
 
 const breadcrumbItems = [
-  { name: "Home", url: "https://globalvisionpestcontrol.com" },
-  { name: "Blog", url: "https://globalvisionpestcontrol.com/blog" },
-  { name: "Bed Bug Treatment Price in Pune", url: "https://globalvisionpestcontrol.com/blog/bed-bug-treatment-price-pune" },
+  { name: "Home", url: "https://globalvisionpestcontrol.in" },
+  { name: "Blog", url: "https://globalvisionpestcontrol.in/blog" },
+  { name: "Bed Bug Treatment Price in Pune", url: "https://globalvisionpestcontrol.in/blog/bed-bug-treatment-price-pune" },
 ]
 
 export default function BedBugTreatmentPricePune() {

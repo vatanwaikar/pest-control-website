@@ -27,7 +27,7 @@ export const metadata = {
   openGraph: {
     title: "Best Pest Control in Pimpri Pune | GlobalVision",
     description: "Professional pest control services in Pimpri, Pune. Same-day service available for termites, bed bugs, cockroaches.",
-    url: "https://globalvisionpestcontrol.com/pest-control-in-pimpri-pune",
+    url: "https://globalvisionpestcontrol.in/pest-control-in-pimpri-pune",
   },
 }
 
@@ -51,8 +51,8 @@ const pimpriFaqs = [
 ]
 
 const breadcrumbItems = [
-  { name: "Home", url: "https://globalvisionpestcontrol.com" },
-  { name: "Pest Control in Pimpri Pune", url: "https://globalvisionpestcontrol.com/pest-control-in-pimpri-pune" },
+  { name: "Home", url: "https://globalvisionpestcontrol.in" },
+  { name: "Pest Control in Pimpri Pune", url: "https://globalvisionpestcontrol.in/pest-control-in-pimpri-pune" },
 ]
 
 export default function PimpriPestControl() {

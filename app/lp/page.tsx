@@ -257,7 +257,7 @@ export default function LandingPage() {
               +91 7350900022
             </a>{" "}
             |{" "}
-            <a href="mailto:info@globalvisionpestcontrol.com" className="hover:text-primary">
+            <a href="mailto:info@globalvisionpestcontrol.in" className="hover:text-primary">
              globalvision028@gmail.com
             </a>
           </p>

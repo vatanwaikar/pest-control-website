@@ -27,7 +27,7 @@ export const metadata = {
   openGraph: {
     title: "Best Pest Control in Wakad Pune | GlobalVision",
     description: "Professional pest control services in Wakad, Pune. Same-day service available for termites, bed bugs, cockroaches.",
-    url: "https://globalvisionpestcontrol.com/pest-control-in-wakad-pune",
+    url: "https://globalvisionpestcontrol.in/pest-control-in-wakad-pune",
   },
 }
 
@@ -51,8 +51,8 @@ const wakadFaqs = [
 ]
 
 const breadcrumbItems = [
-  { name: "Home", url: "https://globalvisionpestcontrol.com" },
-  { name: "Pest Control in Wakad Pune", url: "https://globalvisionpestcontrol.com/pest-control-in-wakad-pune" },
+  { name: "Home", url: "https://globalvisionpestcontrol.in" },
+  { name: "Pest Control in Wakad Pune", url: "https://globalvisionpestcontrol.in/pest-control-in-wakad-pune" },
 ]
 
 export default function WakadPestControl() {

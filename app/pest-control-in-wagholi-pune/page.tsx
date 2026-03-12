@@ -48,8 +48,8 @@ const faqs = [
 ]
 
 const breadcrumbItems = [
-  { name: "Home", url: "https://globalvisionpestcontrol.com" },
-  { name: "Pest Control in Wagholi Pune", url: "https://globalvisionpestcontrol.com/pest-control-in-wagholi-pune" },
+  { name: "Home", url: "https://globalvisionpestcontrol.in" },
+  { name: "Pest Control in Wagholi Pune", url: "https://globalvisionpestcontrol.in/pest-control-in-wagholi-pune" },
 ]
 
 export default function PestControlWagholi() {
@@ -59,7 +59,7 @@ export default function PestControlWagholi() {
       <ServiceSchema 
         name="Pest Control Services in Wagholi"
         description="Professional pest control services in Wagholi, Pune including termite, bed bug, cockroach, mosquito, and rodent control with guaranteed results."
-        url="https://globalvisionpestcontrol.com/pest-control-in-wagholi-pune"
+        url="https://globalvisionpestcontrol.in/pest-control-in-wagholi-pune"
         area="Wagholi"
       />
       <FAQSchema faqs={faqs} />

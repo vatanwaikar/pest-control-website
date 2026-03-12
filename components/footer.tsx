@@ -24,7 +24,7 @@ export function Footer() {
                 <Phone className="h-4 w-4" />
                 +91 7350900022
               </a>
-              <a href="mailto:info@globalvisionpestcontrol.com" className="flex items-center gap-2 hover:text-primary">
+              <a href="mailto:info@globalvisionpestcontrol.in" className="flex items-center gap-2 hover:text-primary">
                 <Mail className="h-4 w-4" />
                globalvision028@gmail.com
               </a>

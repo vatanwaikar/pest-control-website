@@ -27,7 +27,7 @@ export const metadata = {
   openGraph: {
     title: "Best Pest Control in Chinchwad Pune | GlobalVision",
     description: "Professional pest control services in Chinchwad, Pune. Same-day service available for termites, bed bugs, cockroaches.",
-    url: "https://globalvisionpestcontrol.com/pest-control-in-chinchwad-pune",
+    url: "https://globalvisionpestcontrol.in/pest-control-in-chinchwad-pune",
   },
 }
 
@@ -51,8 +51,8 @@ const chinchwadFaqs = [
 ]
 
 const breadcrumbItems = [
-  { name: "Home", url: "https://globalvisionpestcontrol.com" },
-  { name: "Pest Control in Chinchwad Pune", url: "https://globalvisionpestcontrol.com/pest-control-in-chinchwad-pune" },
+  { name: "Home", url: "https://globalvisionpestcontrol.in" },
+  { name: "Pest Control in Chinchwad Pune", url: "https://globalvisionpestcontrol.in/pest-control-in-chinchwad-pune" },
 ]
 
 export default function ChinchwadPestControl() {

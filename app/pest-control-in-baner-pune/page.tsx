@@ -27,7 +27,7 @@ export const metadata = {
   openGraph: {
     title: "Best Pest Control in Baner Pune | GlobalVision",
     description: "Professional pest control services in Baner, Pune. Same-day service available for termites, bed bugs, cockroaches.",
-    url: "https://globalvisionpestcontrol.com/pest-control-in-baner-pune",
+    url: "https://globalvisionpestcontrol.in/pest-control-in-baner-pune",
   },
 }
 
@@ -51,8 +51,8 @@ const banerFaqs = [
 ]
 
 const breadcrumbItems = [
-  { name: "Home", url: "https://globalvisionpestcontrol.com" },
-  { name: "Pest Control in Baner Pune", url: "https://globalvisionpestcontrol.com/pest-control-in-baner-pune" },
+  { name: "Home", url: "https://globalvisionpestcontrol.in" },
+  { name: "Pest Control in Baner Pune", url: "https://globalvisionpestcontrol.in/pest-control-in-baner-pune" },
 ]
 
 export default function BanerPestControl() {

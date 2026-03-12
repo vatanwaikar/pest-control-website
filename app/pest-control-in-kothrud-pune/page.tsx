@@ -27,7 +27,7 @@ export const metadata = {
   openGraph: {
     title: "Best Pest Control in Kothrud Pune | GlobalVision",
     description: "Professional pest control services in Kothrud, Pune. Same-day service available for termites, bed bugs, cockroaches.",
-    url: "https://globalvisionpestcontrol.com/pest-control-in-kothrud-pune",
+    url: "https://globalvisionpestcontrol.in/pest-control-in-kothrud-pune",
   },
 }
 
@@ -51,8 +51,8 @@ const kothrudFaqs = [
 ]
 
 const breadcrumbItems = [
-  { name: "Home", url: "https://globalvisionpestcontrol.com" },
-  { name: "Pest Control in Kothrud Pune", url: "https://globalvisionpestcontrol.com/pest-control-in-kothrud-pune" },
+  { name: "Home", url: "https://globalvisionpestcontrol.in" },
+  { name: "Pest Control in Kothrud Pune", url: "https://globalvisionpestcontrol.in/pest-control-in-kothrud-pune" },
 ]
 
 export default function KothrudPestControl() {

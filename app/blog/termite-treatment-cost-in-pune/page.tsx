@@ -46,9 +46,9 @@ const faqs = [
 ]
 
 const breadcrumbItems = [
-  { name: "Home", url: "https://globalvisionpestcontrol.com" },
-  { name: "Blog", url: "https://globalvisionpestcontrol.com/blog" },
-  { name: "Termite Treatment Cost in Pune", url: "https://globalvisionpestcontrol.com/blog/termite-treatment-cost-in-pune" },
+  { name: "Home", url: "https://globalvisionpestcontrol.in" },
+  { name: "Blog", url: "https://globalvisionpestcontrol.in/blog" },
+  { name: "Termite Treatment Cost in Pune", url: "https://globalvisionpestcontrol.in/blog/termite-treatment-cost-in-pune" },
 ]
 
 export default function TermiteTreatmentCostPune() {

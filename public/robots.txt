@@ -25,7 +25,7 @@ Allow: /pest-control-in-*
 Allow: /services/
 
 # Sitemap location
-Sitemap: https://globalvisionpestcontrol.com/sitemap.xml
+Sitemap: https://globalvisionpestcontrol.in/sitemap.xml
 
 # Crawl delay for respectful crawling
 Crawl-delay: 1

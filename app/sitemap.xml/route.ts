@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 
 export async function GET() {
-  const baseUrl = 'https://globalvisionpestcontrol.com'
+  const baseUrl = 'https://globalvisionpestcontrol.in'
   const currentDate = new Date().toISOString()
 
   const staticPages = [
