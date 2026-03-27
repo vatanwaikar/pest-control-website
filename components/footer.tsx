@@ -70,7 +70,7 @@ export function Footer() {
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="mb-4 text-lg font-semibold">Resources</h3>
             <ul className="space-y-2 text-sm text-background/80">
               <li><Link href="/blog" className="hover:text-primary">Pest Control Blog</Link></li>
@@ -80,7 +80,7 @@ export function Footer() {
               <li><Link href="/blog/how-to-remove-cockroaches-in-pune" className="hover:text-primary">Cockroach Removal Tips</Link></li>
               <li><Link href="/blog/monsoon-pest-control-tips-pune" className="hover:text-primary">Monsoon Pest Control</Link></li>
             </ul>
-          </div>
+          </div> */}
 
           <div>
             <h3 className="mb-4 text-lg font-semibold">Business Hours</h3>
