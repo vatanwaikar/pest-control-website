@@ -8,6 +8,25 @@ import Script from "next/script"
 
 const _inter = Inter({ subsets: ["latin"] })
 
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "PestControl",
+  name: "GlobalVision Pest Control",
+  image: "https://globalvisionpestcontrol.in/logo.png",
+  url: "https://globalvisionpestcontrol.in",
+  telephone: "+91XXXXXXXXXX",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Pune",
+    addressRegion: "Maharashtra",
+    addressCountry: "IN"
+  },
+  areaServed: ["Pune", "Wakad", "Baner", "Hinjewadi"],
+  priceRange: "₹₹",
+}
+
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://globalvisionpestcontrol.in"),
   title: {
@@ -77,6 +96,14 @@ export default function RootLayout({
   return (
     <html lang="en">
   <head>
+
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(localBusinessSchema),
+  }}
+/>
+
     {/* GA4 */}
     <Script
       src="https://www.googletagmanager.com/gtag/js?id=G-Y7CR77YBVL"

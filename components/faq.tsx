@@ -1,4 +1,5 @@
 "use client"
+import Script from "next/script"
 
 import {
   Accordion,
@@ -42,8 +43,14 @@ const faqs = [
   },
 ]
 
+const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((faq) => ({ "@type": "Question", name: faq.question, acceptedAnswer: { "@type": "Answer", text: faq.answer, }, })), }
+
 export function FAQ() {
   return (
+
+    <> <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema), }} />
+
+    
     <section className="py-16 md:py-24">
       <div className="mx-auto max-w-3xl px-4">
         <div className="mb-12 text-center">
@@ -69,5 +76,6 @@ export function FAQ() {
         </Accordion>
       </div>
     </section>
+    </>
   )
 }
