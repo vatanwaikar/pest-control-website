@@ -107,12 +107,12 @@ export default function AboutPage() {
               <h2 className="mb-6 text-3xl font-bold text-foreground">Our Story</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  GlobalVision Pest Control was founded in 2010 by Rajendra Patil, a pest management professional with over 20 years
+                  GlobalVision Pest Control was founded in 2010 by Namdev Waikar, a pest management professional with over 20 years
                   of experience. What started as a small operation with just 2 technicians has grown into one of
                   Pune&apos;s most trusted pest control companies.
                 </p>
                 <p>
-                  Our journey began when Rajendra noticed that many pest control companies in Pune were using harmful
+                  Our journey began when Namdev noticed that many pest control companies in Pune were using harmful
                   chemicals and providing substandard services. He set out to create a company that would prioritize
                   customer safety while delivering effective pest control solutions.
                 </p>
